@@ -1,0 +1,92 @@
+body{
+	height: 100%;
+	width: 100%;
+	background-image: url("liste-de-controle.png");
+	background-size: 40px 40px;
+	background-color: #706d2a;
+	overflow: auto;
+    font-size: 1.5vw;
+
+}
+header{
+	height: 25%;
+	margin: 30px 30px;
+
+}
+nav{
+	height: 50%;
+	width: 100%;
+	background-color: #7a5801;
+	display: flex;
+}
+.reseaux{
+	height: 50%;
+	margin-top: 5px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50% 50%;
+	display: flex;
+	background-color: #4f7da1;
+
+}
+.reseaux img{
+	height: 40px;
+	width: 40px;
+}
+footer{
+	height: 25%;
+	background-color: #010508;
+
+}
+footer .elements ul{
+	align-items: center;
+	justify-content: center;
+}
+.elements ul{
+	display: flex;
+	margin-left: 3px;
+	list-style-type: none;
+
+}
+.elements ul li{
+	border-color: #33407d;
+	justify-content: space-between;
+	margin-left: 100px;
+}
+.admin-img img{
+	border-radius: 50% 50%;
+}
+.corp{
+	height: 75%;
+	width: 100%;
+	padding: 30px 60px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.elementaux{
+	display: flex;
+	margin: 20px 20px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+}
+.c1 ,.c2 ,.c3 ,.c4,.c5 ,.c6 ,.c7 ,.c8 ,.c9 ,.c10 ,.c11 ,.c12 ,.c13{
+	height:200px ;
+	width: 200px;
+	border-radius: 50% 50%;
+	background-image: url("maison.png");
+	background-size: 70px 70px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #33747d;
+	margin: 10px 10px;
+	
+}
+.c1 ,.c2 ,.c3 ,.c4,.c5 ,.c6 ,.c7 ,.c8 ,.c9 ,.c10 ,.c11 ,.c12 ,.c13 ,p h1{
+	text-align: center;
+	
+	
+
+}

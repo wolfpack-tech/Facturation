@@ -1,0 +1,44 @@
+body{
+	height: 100%;
+	width: 100%;
+
+}
+.entete {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.entete-i{
+	display: flex;
+}
+.mois {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fact{
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+}
+.montants{
+	display: flex;
+	margin-left: 50px;
+	justify-content:  space-between;
+}
+.echeance{
+	margin-top: 40px;
+	text-align: center;
+}
+.valeurs{
+	background-color: #5fada0;
+}
+.valeurs-p{
+	background-color: #ad5f67;
+
+}
+.valeurs-import{
+	background-color: #a80c1b;
+
+}
